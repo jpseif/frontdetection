@@ -1,0 +1,30 @@
+measurement:
+    binning: 10
+    repeats: 100
+    delay: 0
+illumination_settings:
+    LightSourceVoltage2CurrentGain: low
+    waveform_type: sine
+    LED_itensity: 2.0
+    time_of_illumination: 0.008
+    time_offset_before: 1.0
+    time_offset_after: 10.0
+    zero_voltage: 1.04
+    LED_off_voltage: 0.0
+    time: 0.019
+    SampleRate: 300000.0
+daq_settings:
+    InputVoltageRange: 10
+    OutputVoltageRange: 10
+    dev: PLimagingBottom
+    InputChannel: 0:2
+    TimeOut: -1
+    DAQmx_OutPutSampleRate: 300000.0
+sample:
+    doping: 0.0
+    thickness: 0.0
+    reflection: 0.0
+    name: ''
+    Fs: 0.0
+    Ai: 0.0
+    doping_type: p-type
